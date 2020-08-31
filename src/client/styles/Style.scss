@@ -1,0 +1,87 @@
+body{
+    background-image: url("../Background/travel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.container{
+    padding-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Section where we search the city/place*/
+section.searchPlace{
+    line-height: 25px;
+    padding: 30px 100px 30px 100px;
+}
+h1{
+    font-size: 35px;
+    font-style: bold;
+    font-family: "Roboto Light";
+    color: rgba(24, 24, 24, 0.84);
+    background-color: #22B5D5;
+    padding: 10px;
+    text-align: center;
+}
+.searchPlace label{
+    color: black;
+    font-style: bold;
+    font-size: 30px;
+}
+button{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+input{
+    font-size: 20px;
+    margin-left: 15px;
+}
+input#leaving{
+    margin-left: 32px;
+}
+input#returning{
+    margin-left: 13px;
+}
+
+
+
+/*Section of results*/
+p{
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+
+}
+img#img{
+    width: 30vw;
+    height: 30vh;
+}
+div.result{
+    display: flex;
+    justify-content: space-around;
+}
+div.infos{
+    padding-left: 10%;
+    line-height: 26px;
+}
+section.resultPlece{
+    padding: 100px 100px 0px 100px;
+}
+button.book{
+    text-align: center;
+    margin: 10px 10px 10px 18%;
+}
+.hide{
+    display: none;
+}
+
+.red{
+    color: red;
+}
