@@ -7,7 +7,7 @@ This project is a travel app that obtains a desired trip location & date from th
 - Pixabay
  
 
-##How to Run the project
+## How to Run the project
 - npm install
 - npm run build-prod
 - npm run build-dev
