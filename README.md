@@ -14,3 +14,6 @@ This project is a travel app that obtains a desired trip location & date from th
 - npm run start
 
 Server will runs on: localhost:4040
+
+## Features:
+Add feature to count the days of trip.
