@@ -48,7 +48,9 @@ export async function handelSubmit(e){
             cityName: coordinates.geonames[0].toponymName,
             picture: picture.hits[0].largeImageURL,
             dateLeaving: dateLeaving,
-            dateReturning: dateReturning
+            dateReturning: dateReturning,
+
+            lengthOfTrip:lengthOfTrip
          })
 
             //Get data from server
