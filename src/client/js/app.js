@@ -24,6 +24,7 @@ export async function handelSubmit(e){
     const dateLeaving = document.getElementById('leaving').value;
     const dateReturning = document.getElementById('returning').value;
     const img = document.getElementById('img');
+    const lengthOfTrip = dateReturning - dateLeaving;
 
     //API call for geonames
      const coordinates = await getData(geonamesUrl + location + '&maxRows=10&username=' + username);
@@ -67,7 +68,9 @@ export async function handelSubmit(e){
             document.getElementById('description').innerHTML = update.description;
             document.getElementById('leavingdate').innerHTML = update.dateLeaving;
             document.getElementById('returningdate').innerHTML = update.dateReturning;
-
+            
+            
+            document.getElementById('tripDuration').innerHTML =update.lengthOfTrip;
             img.setAttribute('src', `${update.picture}`);
 
         }
